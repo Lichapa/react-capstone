@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render components render HomePage 1`] = `
+<div
+  className="home-container"
+>
+  <h1
+    className="home-heading"
+  >
+    Worldwide Cases
+  </h1>
+  <h1
+    className="home-heading h-heading"
+  />
+  <div
+    className="globe-icon-container"
+  >
+    <img
+      alt="Globe"
+      className="globe"
+      src="globe.gif"
+    />
+  </div>
+  <div
+    className="world-wide"
+  >
+    <span
+      className="cases name"
+    >
+      All Countries
+    </span>
+    <span
+      className="cases"
+    >
+      Total
+    </span>
+    <span>
+      0
+    </span>
+  </div>
+  <div
+    className="sticky-inputs"
+  >
+    <div
+      className="search-container"
+    >
+      <span
+        className="search-text"
+      >
+        Get Data By Date:
+      </span>
+      <input
+        className="search-field date-field"
+        max="2022-13-1"
+        min="2020-02-01"
+        onChange={[Function]}
+        placeholder="Search"
+        type="date"
+        value=""
+      />
+    </div>
+    <div
+      className="search-container search-down"
+    >
+      <span
+        className="search-text"
+      >
+        STATS BY COUNTRY
+      </span>
+      <input
+        className="search-field"
+        id="country-search"
+        onChange={[Function]}
+        placeholder="Search"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <div
+    className="source"
+  >
+    Source:
+  </div>
+</div>
+`;
